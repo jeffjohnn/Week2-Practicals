@@ -1,13 +1,20 @@
-﻿using System;
+﻿/* 
+ * Practical 2 (Methods)
+ * Information: Methods demo
+ * Version 1
+ * Author Jeff John
+ * Date: September;
+ */
+
+using System;
 using System.Net.Http.Headers;
 
 class Program
 {
     public static void Main(string[] args)
     {
-        PrintMenu();
-        InputOption();
-        GetMessage();
+        Program program = new Program();
+        program.PrintMenu();
     }
 
     void PrintMenu()
